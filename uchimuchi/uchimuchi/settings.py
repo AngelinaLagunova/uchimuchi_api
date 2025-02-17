@@ -112,7 +112,7 @@ LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
+    'http://uchimuchi.ru',
 ]
 
 USE_I18N = True
