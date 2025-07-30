@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-7p2kpg@%bc0rjn0or7v@qp0@)u(+rbg)k0jm2er$f8+krw1pb1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["учивыучи.рф", "localhost", "127.0.0.1"]
 
 
 # Application definition
@@ -112,7 +112,9 @@ LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'UTC'
 
 CORS_ALLOWED_ORIGINS = [
-    'http://uchimuchi.ru',
+    'http://учивыучи.рф',
+    'http://localhost:3000',
+    'http://192.168.164.213:3000'
 ]
 
 USE_I18N = True
